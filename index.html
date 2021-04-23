@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <h1 class="pageTitle">Airline Data</h1>
+
+    <div id="chart" class="pageContainer">
+      <!-- Container for graph -->
+    </div>
+
+    <script>
+      // Data
+      const data = d3.csv("/data/airlines.csv");
+
+      // insert svg
+
+      // Should always be present to let svg give back our visualization
+      // document.getElementById("chart").appendChild(svg.node());
+    </script>
+  </body>
+</html>

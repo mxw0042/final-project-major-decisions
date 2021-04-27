@@ -35,7 +35,7 @@ var projection = d3.geoMercator()
     .translate([ width/2, height/2 ])
 
 // Create data for circles:
-const airports = d3.csv("https://raw.githubusercontent.com/mxw0042/final-project-major-decisions/main/data/airport_coordinates.csv", function(data_airports) {
+const airports = d3.csv("https://raw.githubusercontent.com/mxw0042/final-project-major-decisions/main/data/airlines_with_coord.csv", function(data_airports) {
 console.log(airports)
 // Load external data and boot
 d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson", function(data){
